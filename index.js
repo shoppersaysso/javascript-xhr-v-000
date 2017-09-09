@@ -1,5 +1,9 @@
 function showRepositories(event, data) {
   console.log(this.responseText)
+  let repoList = "<ul>"
+  for(var i=0;i < this.responseText.length; i++) {
+    
+  }
 }
 
 function getRepositories() {
