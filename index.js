@@ -12,6 +12,7 @@ function getCommits(el) {
   req.addEventListener("load", showCommits)
   req.open("GET",
   'https://api.github.com/repos/shoppersaysso/' + name + '/commits')
+  req.send()
 }
 
 function getRepositories() {
