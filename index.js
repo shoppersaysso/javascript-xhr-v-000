@@ -1,3 +1,8 @@
+function showRepositories(event, data) {
+  console.log(this.responseText)
+}
+
+
 function getRepositories() {
   const req = new XMLHttpRequest()
   req.open("GET",
@@ -5,6 +10,3 @@ function getRepositories() {
   req.send()
 }
 
-function showRepositories(event, data) {
-  console.log(this.responseText)
-}
