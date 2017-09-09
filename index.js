@@ -4,3 +4,7 @@ function getRepositories() {
   'https://api.github.com/users/shoppersaysso/repos')
   req.send()
 }
+
+function showRepositories(event, data) {
+  
+}
